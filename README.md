@@ -1,6 +1,93 @@
-# DSA-Project-.-Amazon-Product-Review-Analysis-
-This project aim at analysing product and customer review data to generate insights that can guide product improvements, marketing strategies and customer engagement.
+### DSA-Project
 
+### Project Title: Amazon Products Review Analysis
+### Table of Contents
+
+- [Introduction](#introduction)
+
+- [Project Overview](#project-overview)
+
+- [Data Sources](#data-sources)
+
+- [About the Dataset](#about-the-dataset)
+
+- [Tools Used](#tools-used)
+
+- [Data Cleaning and Preparations](#data-cleaning-and-preparations)
+
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+
+- [Data Analysis](#data-analysis)
+
+- [Data Visualization](#data-visualization)
+  
+---
+### Introduction
+ The world of business thrives on data-driven decisions, and the ability to harness the power of data is essential. In this project, i embark on an exciting journey to analyze Retail Store sales data to uncover trends, and reveal valuable insights that will drive strategic decision-making. In other words, the goal is to extract information from the sales dataset, in order to provide a roadmap for the optimization of sales strategies in achieving sustainable growth.
+ 
+ --- 
+### Project Overview
+This Data Analysis aims at generating insight into the sales performances of a Retail store over the past years. In analyzing the sales data, i seek to extract necessary information from the sales dataset, to provide valuable insights that can guide decision-making process across various aspects of the business. These insights include the identification of sales per product, sales per month, sales per region,  best-selling products, top revenue-generating region among others. This will enable us to tell compelling stories around the data from the insight gotten, to know the best performance from our data and also to enable  the business make informed decisions to optimize operations, enhance marketing efforts, and maximize revenue.
+
+---
+ ###  Data Sources
+The primary source of the Data used here is Sales Data.Csv. This is an open source data that an be freely downloaded from an open source online such as kaggle or any other data repository site.
+ 
+---
+### About the Dataset
+The dataset has sales data from 2023 to 2024. It consists originally of 7 columns which was modified further for the purpose of the analysis;
+
+- OrderID: Unique identifier for each order placed by a customer
+
+- CustomerID: Unique identifier of each customer
+
+- Product: Products sold by the store
+
+- Region : Region of each customers
+
+- OrderDate: Date the order was placed
+ 
+- Quantity: Quantity ordered for each product
+
+- Price Each: Price of each product
+  
+- Total Sales:Total sales gotten for each product
+  
+- Revenue: Revenue generated from the product sold
+  
+---
+### Tools Used
+- Microsoft Excel {Download Here}{https://www.microsoft.com}
+  1. For Data Cleaning, 
+  2. For Analysis
+  3. For Data Visualization
+
+ - Structured Query Language {SQL] for Quering of Data
+  
+- PowerBI for Dynamic and Interactive Data Visualization.
+
+- GitHub for Portfolio Building
+
+---
+### Data Cleaning and Preparations.
+In the initial phase of the Data cleaning and preparations, the following actions were performed; 
+ 1. Data Loading and Inspection
+ 2. Handling Missing Variables
+ 3. Data Cleaning and Formatting
+
+---
+### Exploratory Data Analysis (EDA)
+EDA involved the exploration of Data to answer some questions about the Data in order to gain insights. The questions are categorized into two, which are: Sales Analysis and Product Analysis.
+#### Sales Analysis
+- What is the total sales per product ? 
+- What is the total sales per month?
+- What is the total sales per region?
+- What is the revenue by region?
+#### Product Analysis
+- Which product sold the most?
+- Which product are top sellers?
+- What is the average sales per product?
+- 
 ---
 ### Exploratory Data Analysis (EDA)
 EDA involved the exploration of Data to answer some questions about the Data in order to gain insights. The questions are categorized into two, which are: Sales Analysis and Product Analysis.
