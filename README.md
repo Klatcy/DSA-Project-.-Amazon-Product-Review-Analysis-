@@ -61,25 +61,6 @@ The dataset contains information scraped from Amazon product pages,It consists o
 
 •Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
 
-
-- OrderID: Unique identifier for each order placed by a customer
-
-- CustomerID: Unique identifier of each customer
-
-- Product: Products sold by the store
-
-- Region : Region of each customers
-
-- OrderDate: Date the order was placed
- 
-- Quantity: Quantity ordered for each product
-
-- Price Each: Price of each product
-  
-- Total Sales:Total sales gotten for each product
-  
-- Revenue: Revenue generated from the product sold
-  
 ---
 ### Tools Used
 - Microsoft Excel {Download Here}{https://www.microsoft.com}
@@ -88,8 +69,6 @@ The dataset contains information scraped from Amazon product pages,It consists o
   3. For Data Visualization
 
  - Structured Query Language {SQL] for Quering of Data
-  
-- PowerBI for Dynamic and Interactive Data Visualization.
 
 - GitHub for Portfolio Building
 
@@ -97,7 +76,7 @@ The dataset contains information scraped from Amazon product pages,It consists o
 ### Data Cleaning and Preparations.
 In the initial phase of the Data cleaning and preparations, the following actions were performed; 
  1. Data Loading and Inspection
- 2. Handling Missing Variables
+ 2. Removing Duplicate Rows
  3. Data Cleaning and Formatting
 
 ---
@@ -128,7 +107,7 @@ EDA involved the exploration of Data to answer some questions about the Data in 
     
 12. Which categories have products with the highest discounts?
     
-13. Identify the top 5 products in terms of rating and n
+13. Identify the top 5 products in terms of rating and 
 
 ---
 ### Data Analysis
