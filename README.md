@@ -28,7 +28,7 @@
  --- 
 ### Project Overview
 
-This data analysis project aims to generate insights into Amazon product reviews. By analyzing the data, I seek to extract valuable information from product categories and reviews to inform business decision-making. The analysis will focus on key insights, including:
+This data analysis project aims to generate insights into Amazon product reviews. By analyzing the data, i seek to extract valuable information from product categories and reviews to inform business decision-making. The analysis will focus on key insights, including:
 
 - Total number of products under each category
 - Total number of reviews per category
@@ -122,7 +122,13 @@ EDA involved the exploration of Data to answer some questions about the Data in 
 
 9. What is the total potential revenue (actual_price × rating_count) by category?
 
-10. What is the number of unique products per price range bucket (e.g., <₹200,₹200–₹500, >₹500)?
+10. How does the rating relate to the level of discount?
+    
+11. How many products have fewer than 1,000 reviews?
+    
+12. Which categories have products with the highest discounts?
+    
+13. Identify the top 5 products in terms of rating and n
 
 ---
 ### Data Analysis
