@@ -52,7 +52,15 @@ The primary source of the Data used here is Sales Data.Csv. This is an open sour
  
 ---
 ### About the Dataset
-The dataset has sales data from 2023 to 2024. It consists originally of 7 columns which was modified further for the purpose of the analysis;
+
+The dataset contains information scraped from Amazon product pages,It consists originally of 16 columns and 1465 rows which was modified further for the purpose of the analysis. The dataset include:
+
+• Product details: name, category, price, discount, and ratings
+
+• Customer engagement: user reviews, titles, and content
+
+•Each row represents a unique product, with aggregated reviewer data stored as comma-separated values
+
 
 - OrderID: Unique identifier for each order placed by a customer
 
