@@ -23,7 +23,7 @@
   
 ---
 ### Introduction
- The world of business thrives on data-driven decisions, and the ability to harness the power of data is essential. In this project, i embark on an exciting journey to analyze Retail Store sales data to uncover trends, and reveal valuable insights that will drive strategic decision-making. In other words, the goal is to extract information from the sales dataset, in order to provide a roadmap for the optimization of sales strategies in achieving sustainable growth.
+ In today's data-centric business landscape, informed decision-making is crucial. This project involves analyzing Amazon product reviews to uncover key trends and generate actionable insights that can inform product development, marketing strategies, and consumer engagement. The goal is to provide a roadmap for product improvements and drive sustainable growth.
  
  --- 
 ### Project Overview
