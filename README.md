@@ -27,7 +27,24 @@
  
  --- 
 ### Project Overview
-This Data Analysis aims at generating insight into the sales performances of a Retail store over the past years. In analyzing the sales data, i seek to extract necessary information from the sales dataset, to provide valuable insights that can guide decision-making process across various aspects of the business. These insights include the identification of sales per product, sales per month, sales per region,  best-selling products, top revenue-generating region among others. This will enable us to tell compelling stories around the data from the insight gotten, to know the best performance from our data and also to enable  the business make informed decisions to optimize operations, enhance marketing efforts, and maximize revenue.
+
+This data analysis project aims to generate insights into Amazon product reviews. By analyzing the data, I seek to extract valuable information from product categories and reviews to inform business decision-making. The analysis will focus on key insights, including:
+
+- Total number of products under each category
+- Total number of reviews per category
+- Average discount percentage by product category
+- Product with the highest average ratings
+- Total potential revenue
+- Distribution of product ratings
+- Product with the highest number of reviews
+- Unique products per price range
+- Products with fewer than 1000 reviews
+- Product category with the highest discount
+- Top 5 products in terms of ratings and number of reviews
+- Product with 50% discount and more
+- Relationship between rating and level of discount
+
+These insights will enable us to tell compelling stories around the data, identify best performance, and make informed decisions to optimize operations, enhance product improvements, marketing strategies, and consumer engagement."
 
 ---
  ###  Data Sources
