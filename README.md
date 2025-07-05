@@ -107,59 +107,7 @@ EDA involved the exploration of Data to answer some questions about the Data in 
     
 12. Which categories have products with the highest discounts?
     
-13. Identify the top 5 products in terms of rating and 
-
----
-### Data Analysis
-This is where i include some basic lines of code or queries or even some of the DAX functions used during the analysis.These include
-- SQL Queries
-```SQL
-SELECT* FROM [dbo].[Sales Data]
-```
-- To Retrieve Total Sales for each Product category
-```SQL
-SELECT Product, SUM (Total_Sales) as Sales_Per_State FROM [dbo].[Sales Data]
-GROUP By Product
-```
-- To Find the Number of Sales Transaction in each Region
-```SQL
-SELECT Region, SUM(Total_Sales) as Sales_Transaction FROM [dbo].[Sales Data]
-GROUP By Region
- ```
- - To Find the Highest Selling Product by Total Sales Value
-```SQL
-SELECT Product, SUM (Total_Sales) as Total_Sales FROM [dbo].[Sales Data]
-GROUP By Product
-Order By Total_Sales DESC
-```
-- To Calculate Total Revenue by Product
-```SQL
-SELECT Product, SUM (Revenue) as Total_Revenue FROM [dbo].[Sales Data]
-GROUP By Product
-```
-- To Order Month Column
-```SQL
-ALTER TABLE [dbo].[Sales Data]
-ADD Order_Month Nvarchar(50)
-```
-```SQL
-UPDATE [dbo].[Sales Data]
-SET Order_Month = DATENAME(month, OrderDate)
-```
-```SQL
-ALTER TABLE [dbo].[Sales Data]
-ADD Order_Year INT
-```
-```SQL
-Update [dbo].[Sales Data]
-SET Order_Year = Year (OrderDate)
-```
-- Monthly Sales For The Current Year
-```SQL
-SELECT  Order_Month, SUM (Total_Sales) AS Monthly_Sales FROM [dbo].[Sales Data]
-WHERE Order_Year=2024
-GROUP By Order_Month
-```
+13. Identify the top 5 products in terms of rating and reviews
 
 ---
 ### Data Analysis and Visualization
@@ -167,27 +115,56 @@ GROUP By Order_Month
 
 ![Pivot 1234  Amazon](https://github.com/user-attachments/assets/735fe02b-5a9c-41b2-a9b2-db85243b71be)
 
+The pivot table above provides a comprehensive report, showcasing:
 
+- Average Discount Percentage by Product Category
+- Total Number of Products in each Category
+- Total Number of Reviews by Category
+- Products with the Highest Average Rating in each Category
 
 
 
 ![Pivot 5 6 7 Amazon](https://github.com/user-attachments/assets/ea77b159-36a6-4b7c-869e-48d8af76de5f)
 
 
+The pivot table above provides a comprehensive report, showcasing:
 
+- Average Actual Price Vs Discounted Price by Category.
+- Products With Highest Number of Review.
+- Products With 50% Discount and more.
+  
 
 ![Pivot 8, 9, 10, 11  Amazon](https://github.com/user-attachments/assets/6308a8af-dc3d-4e19-a5a8-80b2cad448a8)
 
 
+The pivot table above provides a comprehensive report, showcasing:
 
+- Distribution of Product Rating
+- Total Potential Revenue by Category
+- Unique Products Per Price Range 
+- Rating Relating to Level of Discount
+  
 
 ![Pivot 12, 13, 14   Amazon](https://github.com/user-attachments/assets/2ddaa0ba-ca1e-4093-94bf-8a7f842bd646)
+
+
+The pivot table above provides a comprehensive report, showcasing:
+
+- Products lesser than 1000
+- Product Category With Highest Discount
+- Top 5 Products in Terms of Rating and Review 
+
 
 
 
 
 
 ![Amazon Dashboard](https://github.com/user-attachments/assets/ac4608f6-5c0c-4891-85ac-23f7406315ac)
+
+
+
+
+
 
 
 #### Conclusion 
