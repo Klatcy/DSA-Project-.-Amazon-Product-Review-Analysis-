@@ -48,7 +48,7 @@ These insights will enable us to tell compelling stories around the data, identi
 
 ---
  ###  Data Sources
-The primary source of the Data used here is Sales Data.Csv. This is an open source data that an be freely downloaded from an open source online such as kaggle or any other data repository site.
+The primary source of the Data used here is Web-Scrapped Amazon Product Review Data.
  
 ---
 ### About the Dataset
@@ -76,8 +76,7 @@ The dataset contains information scraped from Amazon product pages,It consists o
 ### Data Cleaning and Preparations.
 In the initial phase of the Data cleaning and preparations, the following actions were performed; 
  1. Data Loading and Inspection
- 2. Removing Duplicate Rows
- 3. Data Cleaning and Formatting
+ 2. Data Cleaning and Formatting
 
 ---
 ### Exploratory Data Analysis (EDA)
@@ -161,6 +160,9 @@ The pivot table above provides a comprehensive report, showcasing:
 
 ![Amazon Dashboard](https://github.com/user-attachments/assets/ac4608f6-5c0c-4891-85ac-23f7406315ac)
 
+
+
+In analyzing Amazon product reviews, various visualization tools were employed, including column charts, bar charts, pie charts, and line charts, providing a comprehensive understanding of the review data.
 
 
 
