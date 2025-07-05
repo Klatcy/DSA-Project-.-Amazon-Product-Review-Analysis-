@@ -164,6 +164,17 @@ GROUP By Order_Month
 ---
 ### Data Visualization
 
+![Pivot 1234  Amazon](https://github.com/user-attachments/assets/735fe02b-5a9c-41b2-a9b2-db85243b71be)
+
+
+![Pivot 5 6 7 Amazon](https://github.com/user-attachments/assets/ea77b159-36a6-4b7c-869e-48d8af76de5f)
+
+
+![Pivot 8, 9, 10, 11  Amazon](https://github.com/user-attachments/assets/6308a8af-dc3d-4e19-a5a8-80b2cad448a8)
+
+
+
+![Amazon Dashboard](https://github.com/user-attachments/assets/ac4608f6-5c0c-4891-85ac-23f7406315ac)
 
 
 #### Microsoft Excel Data Visualization
